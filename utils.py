@@ -16,3 +16,4 @@ def write_to_uc_table(
         .option("overwriteSchema", "true") \
         .saveAsTable(full_table_name)
     print(f"Successfully wrote data to {full_table_name}")
+
